@@ -5,10 +5,10 @@ import { ClipPath, UpArrow } from '../../svg';
 const footer_contents = {
   title: <>More than 10 years in the game and {"we're"} <br /> just getting started.🤝</>,
   btn_text: 'Available for new Project',
-  copyRight_text: <>© {new Date().getFullYear()} Creative Agency , All Right Receved.</>,
+  copyRight_text: <>© {new Date().getFullYear()} Pro GenX , All Right Receved.</>,
   conditions: ['Support', 'Privacy policy', 'Terms and conditions'],
   logo: '/assets/img/copyright/copyright-logo.png',
-  social_links: ['fab fa-linkedin-in', 'fab fa-facebook-f', 'fab fa-instagram', 'fab fa-youtube']
+  social_links: [{link:'',img:'fab fa-linkedin-in'}, {link:'https://www.facebook.com/',img:'fab fa-facebook-f'}, {link:'',img:'fab fa-instagram'}, {link:'/',img:'fab fa-youtube'}]
 }
 
 const { btn_text, conditions, copyRight_text, logo, social_links, title } = footer_contents;
@@ -78,7 +78,9 @@ const Footer = () => {
                 <div className="col-xl-8 col-lg-8 col-md-8 col-12">
                   <div className="tp-copyright-social text-md-end mt-25">
                     {social_links.map((s, i) => (
-                      <a key={i} href="#"><i className={s}></i></a>
+                    <Link href={s.link}>
+                      <a key={i}><i className={s.img}></i></a>
+                      </Link>
                     ))}
                   </div>
                 </div>

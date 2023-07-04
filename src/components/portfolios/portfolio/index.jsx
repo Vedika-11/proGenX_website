@@ -15,7 +15,7 @@ const Portfolio = () => {
   return (
     <Wrapper>
      <HeaderSix/>
-     <Breadcrumb title={'Portfolio Full Width'} />
+     <Breadcrumb title={'Case Study'} />
      <PortfolioArea/>
      <FooterThree/>
     </Wrapper>

@@ -17,7 +17,7 @@ const About = () => {
   return (
     <Wrapper>
       <HeaderSix />
-      <Breadcrumb title={'About ProGenX'} />
+      <Breadcrumb title={'Discover Our Story'} />
       <AboutArea/>
       <ServicesArea/>
       <FeatureArea/>

@@ -2,11 +2,11 @@ import Link from 'next/link';
 import React from 'react';
 
 const hero_contents = {
-  title: 'We make things look good',
-  text: <>At Collax we specialize in designing, building, shipping and scaling beautiful, <br />
-    usable products with blazing-fast efficiency</>,
+  title: "Building Tomorrow's Tech Today",
+  text: <>Pro GenX is a cutting-edge technology company revolutionizing the industry with innovative solutions in Web Services,
+Software Services, App Development, AI, cloud computing, cybersecurity, and IoT.</>,
   btn_text: 'Visit Case Studies',
-  btn_text_2: 'About Collax',
+  btn_text_2: 'About Pro GenX',
   social_links: [
     { id: 1, icon: 'fab fa-facebook-f social-icon-1', title: 'Facebook',link: 'http://facebook.com' },
     { id: 3, icon: 'fab fa-youtube social-icon-3', title: 'Youtube',link: 'https://www.youtube.com/' },
@@ -40,7 +40,8 @@ const HeroArea = () => {
                     <Link href="/portfolio">
                       <a className="tp-btn mr-30">{btn_text}</a>
                     </Link>
-                    <Link href="/about-me">
+                   {/* <Link href="/about-me"> */}
+                     <Link href="/about">
                       <a className="tp-btn-grey">{btn_text_2}
                         <i className="far fa-arrow-right"></i></a>
                     </Link>

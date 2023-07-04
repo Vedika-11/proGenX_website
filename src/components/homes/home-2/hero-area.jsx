@@ -8,7 +8,7 @@ const hero_contents = {
     { number: 'three z-index-1', img: '/assets/img/hero/Spiral.png' },
     { number: 'four z-index-1', img: '/assets/img/hero/hero-light-2.png' },
   ],
-  title: 'Hi 👋 I am collax, website and user interface',
+  title: 'Hi 👋 I am Pro GenX, website and user interface',
   highlightText: 'Designer',
   hero_img: '/assets/img/hero/hero-3.png',
   brands: [

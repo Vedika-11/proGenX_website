@@ -18,7 +18,7 @@ const Service = () => {
   return (
     <Wrapper>
       <HeaderSix />
-      <Breadcrumb title={'Service 01'} />
+      <Breadcrumb title={'Services'} />
       <ServiceArea />
       <CaseArea/>
       <TestimonialArea style_2={true}/>

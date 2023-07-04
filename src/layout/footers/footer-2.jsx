@@ -9,7 +9,7 @@ const footer_contents = {
   title: 'Let’s build something together',
   text: 'At Collax we specialize in designing, building, shipping and scaling beautiful, usable products with blazing-fast efficiency',
   btn_text: 'Contact us',
-  copy_right_text: <>© {new Date().getFullYear()} Personal Portfolio , All Right Received.</>,
+  copy_right_text: <>© {new Date().getFullYear()} Pro GenX , All Right Received.</>,
   copy_right_menu: ['Case Studies', 'Pricing Plan'],
   social_links: ['fab fa-linkedin-in', 'fab fa-facebook-f', 'fab fa-instagram', 'fab fa-youtube'],
   social_links: [

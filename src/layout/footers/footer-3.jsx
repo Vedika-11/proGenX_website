@@ -10,17 +10,17 @@ const footer_contents = {
     {
       w_class: 'd-flex justify-content-lg-center',
       title: 'Useful Links',
-      widget_lists: ['Contact us', 'How it Works', 'Create', 'Explore', 'Terms & Services']
+      widget_lists: [{link:'/contact', name:'Contact us'}, {link:'/about', name:'How it Works'}, {link:'/blog', name:'Create'}, {link:'/job', name:'Explore'}, {link:'/faq', name:'Terms & Services'}]
     },
     {
       padd: 'pl-20',
       title: 'Community',
-      widget_lists: ['Help Center', 'Partners', 'Suggestions', 'Blog', 'Newsletters']
+      widget_lists: [{link:'/faq', name:'Help Center'}, {link:'/products', name:'Partners'}, {link:'/wishlist', name:'Suggestions'}, {link:'/blog', name:'Blog'}, {link:'/testimonial', name:'Newsletters'}]
     },
   ],
   subscribe_title: 'Subscribe Newslatter',
   subscribe_text: 'Exerci tation ullamcorper suscipit lobortis nisl aliquip ex ea commodo',
-  copy_right_text: <>© Copyright ©{new Date().getFullYear()} Collax. All Rights Reserved Copyright</>,
+  copy_right_text: <>© Copyright ©{new Date().getFullYear()} Pro GenX. All Rights Reserved Copyright</>,
   conditions: ['Terms and conditions', 'Privacy policy', 'Login / Signup']
 }
 
@@ -60,7 +60,11 @@ const FooterThree = ({ home_four = false }) => {
                     </div>
                     <div className="tp-footer-widget__list">
                       <ul>
-                        {widget_lists.map((l, i) => <li key={i}><a href="#">{l}</a></li>)}
+                        {widget_lists.map((l, i) => <li key={i}>
+                        <Link href={l.link}>
+                        <a>{l.name}</a>
+                        </Link>
+                        </li>)}
                       </ul>
                     </div>
                   </div>
