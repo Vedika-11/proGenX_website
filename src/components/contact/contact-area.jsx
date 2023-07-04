@@ -14,7 +14,7 @@ const ContactArea = () => {
                 </div>
                 <div className="tp-contact-info mb-40">
                   <h4 className="contact-title">Mail Address</h4>
-                  <span><a href="mailto:(webmail@gmail.com)">(info@progx.in)</a></span>
+                  <span><a href="mailto:(webmail@gmail.com)" style={{}}>info@progx.in</a></span>
 {/*                   <span><a href="mailto:(infoweb@gmail.com)">(infoweb@gmail.com)</a></span> */}
                 </div>
                 <div className="tp-contact-info mb-40">
@@ -24,7 +24,7 @@ const ContactArea = () => {
                 </div>
                 <div className="tp-contact-info">
                   <h4 className="contact-title">Address line</h4>
-                  <span><a href="https://www.google.com/maps" target="blank">Pro GenX , 2nd floor, King Street , SL marg, Jawahar Lal Nehru Marg, Malviya Nagar, Jaipur, Rajasthan 302018</a></span>
+                  <span><a href="https://www.google.com/maps" target="blank">Pro GenX , 2nd floor, King Street , SL marg,<br/> Jawahar Lal Nehru Marg, Malviya Nagar, <br/>Jaipur, Rajasthan 302018</a></span>
                 </div>
               </div>
             </div>
